@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.mywebsite{
+    text-transform: capitalize;
+}
+.mywebsite .logo{
+    display: flex;
+}
+.mywebsite .logo .imgh1{
+    display: flex;
+}
+.mywebsite .logo .imgh1 img{
+    width: 80px;
+    height: 80px;
+    margin: 20px 0 10px 40px;
+    border-radius: 50px;
+}
+.mywebsite .logo .imgh1 h1{
+    color: rgb(255, 255, 255);
+    margin: 40px 0 10px 10px;
+    font-family: Mongolian, Times;
+}
+.mywebsite .logo .links{
+    margin: 40px 0 0 140px;
+}
+.mywebsite .logo .links a{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    margin: 0 0 0 5px;
+
+}
+.mywebsite .logo .links a:hover{
+    color: rgb(255, 255, 255);
+    transform: scaleX(2);
+    transition: 1.03s;   
+}
+
+.mywebsite .time{
+    color: aliceblue;
+    margin: 35px 0 0 200px;
+}
+
+.mywebsite .text .bigimgs{
+    display: flex;
+    color: aliceblue;
+}
+.mywebsite .text h3{
+    margin: 40px 0 0 50px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 80px 400px 0 90px;
+    font-size: 30px;
+}
+.mywebsite .text mark{
+    color: blue;
+}
+.mywebsite .link{
+    display: flex;
+    gap: 10px;
+    margin: 0 0 0 90px;
+}
+.mywebsite .link a{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    background-color: black;
+    color: blue;
+}
+.mywebsite .link a:hover{
+    color: rgb(0, 0, 133);
+    transform: scaleX(1);
+    transition: 1.03s; 
+}
+
+.mywebsite .link i{
+    color: rgb(50, 50, 255);
+}
+.borderimg{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 100px 100px 0 0;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation: borderAnimation 4s linear infinite;
+}
+@keyframes borderAnimation{
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.smallimg{
+    text-align: right;
+    margin: 10px 100px 0 0;
+}
+.smallimg img{
+    width: 60px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .mywebsite .logo{
+        display: block;
+    }
+    .mywebsite .logo .imgh1 img{
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+        margin: 20px 0 10px 70px;
+        border-radius: 50px;
+    }
+    .mywebsite .logo .imgh1 h1{
+        font-size: 20px;
+        margin: 50px 0 10px 20px;
+      
+    }
+    .mywebsite .logo .links{
+        font-size: 15px;
+        margin: 40px 0 0 10px;
+        padding: 0 0 10px 20px;
+    }
+
+    .mywebsite .time{
+        color: aliceblue;
+        margin: 35px 0 0 20px;
+        font-size: 10px;
+        top: 1000px;
+    }
+ 
+    
+.mywebsite .text .bigimgs{
+    display: block;
+}
+    .mywebsite .text h3{
+        margin: 40px 0 0 20px;
+        border: 1px solid rgb(0, 0, 0);
+        font-size: 13px;
+    }
+
+    .borderimg{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 30px 10px 10px 70px;
+    }
+    .smallimg{
+        text-align: right;
+        margin: 3px 100px 10px 0;
+    }
+    .smallimg img{
+        width: 40px;
+        border-radius: 20px;
+    }
+    .mywebsite .link{
+        display: flex;
+        gap: 10px;
+        margin: 0 0 0 30px;
+        font-size: 10px;
+    }
+}

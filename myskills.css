@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+.myskill h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.myskill h2{
+    color: yellow;
+    margin: 0 20px 10px ;
+    border: 2px blue solid;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px 0 10px 20px;
+}
+ol li {
+    margin: 0 0 20px 50px;
+    
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al - Qasim</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Welcome to Al - Qasim, 
+    the personal website of Qasim Salah, where you can find info, 
+    updates, and key moments.">
+    <meta name="description"
+        content="Welcome to the personal website of Qasim Salah, also known as Al-Qasim. Discover my work, projects, and more.">
+    <meta name="keywords" content="Qasim Salah, Al Qasim, قاسم صلاح, qasimsalah, qasim website, al-qasim">
+    <meta name="author" content="Qasim Salah">
+    <title>Qasim Salah - Al Qasim</title>
+</head>
+
+<body>
+    <div class="mywebsite">
+        <div class="logo">
+            <div class="imgh1">
+                <img src="q1.jpg">
+                <h1>Qasim Salah</h1>
+            </div>
+
+            <div class="links">
+                <a href="mylife.html">My_Life, </a>
+                <a href="mystudies.html">My_Studies, </a>
+                <a href="mycertificates.html">My_Certificates,</a>
+                <a href="myskills.html">My_Skills, </a>
+                <a href="andmore.html">And_More, </a>
+                <a href="contactme.html">Contact_Me</a>
+
+            </div>
+
+            <div class="time">
+                <h3>Last Update: 2025-4-25</h3>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="text">
+            <div class="bigimgs">
+                <h3>
+                    Welcome to <mark>Qasim Salah</mark>'s personal page! This page was created to provide you with
+                    information about the most important events in his life. Stay with us to learn more about his key
+                    milestones and achievements.
+                </h3>
+                <img class="borderimg" src="qasim3.jpg">
+            </div>
+        </div>
+        <div class="smallimg">
+            <img src="qasim1.jpg">
+            <img src="qasim2.jpg">
+            <img src="qasim3.jpg">
+            <img src="qasim4.jpg">
+        </div>
+
+        <script>
+            let bigimg = document.querySelector('.bigimgs img')
+            let smallimage = document.querySelectorAll('.smallimg img')
+            smallimage.forEach(image => {
+                image.addEventListener('click', () => {
+                    bigimg.src = image.src;
+                });
+            });
+        </script>
+
+
+
+        <div class="link">
+            <a href="mailto:qasimsalah58@gmail.com">
+                <i class="fa-solid fa-envelope fa-fade"></i>
+                <h4>email</h4>
+            </a>
+            <a href="https://www.facebook.com/share/15usj7uQMh/?mibextid=qi2Omg">
+                <i class="fa-brands fa-facebook fa-fade"></i>
+                <h4>facebook</h4>
+            </a>
+            <a href="https://www.instagram.com/q_02_0.0?igsh=MWg0cm5jNDJxcnFtdA==">
+                <i class="fa-brands fa-instagram fa-fade"></i>
+                <h4>instagram</h4>
+            </a>
+            <a href="https://www.snapchat.com/add/q02as?share_id=h1tqMknC1Go&locale=en-US">
+                <i class="fa-brands fa-snapchat fa-fade"></i>
+                <h4>snapchat</h4>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

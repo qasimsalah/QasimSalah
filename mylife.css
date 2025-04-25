@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+.mylife h1{
+    text-align: center;
+    padding: 20px 0;
+}
+h2{
+    color: yellow;
+}
+.mylife h2{
+    margin:  0 20px 10px 20px;
+    padding: 0 0 0 20px;
+    border: 20px blue solid;
+    border-radius: 10px;
+    background-color: blue;
+}
+.mylife h4{
+    margin: 0 20px 0 0;
+    padding: 10px 0 30px 40px;
+}
+
+mark{
+    background-color: blue;
+    color: yellow;
+}
